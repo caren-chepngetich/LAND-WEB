@@ -1,0 +1,439 @@
+body{
+    font-size: larger;
+}
+#Nav{
+    display: flex;
+}
+#navbar{
+    display: flex;
+    gap: 50%;
+    margin-left: 20%;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    text-decoration: none;
+}
+
+#h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 46px;
+}
+#hero{
+    color: rgb(215, 23, 23);
+}
+
+#superhero{
+    color: rgb(215, 23, 23);
+    margin-right: 2%;
+
+}
+#login{
+    border-radius: 30px;
+    width: 120px;
+    height: 40px;
+}
+#join{
+    border-radius: 30px;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(215, 23, 23);
+
+
+}
+.man{
+    display: flex;
+    gap: 250px;
+}
+
+#hero-man{
+    width: 700px;
+}
+#explore{
+    border-radius: 30px;
+    height: 50px;
+    width: 150px;
+    background-color: rgb(215, 23, 23);
+    margin-left: -20%;
+}
+input{
+    border-radius: 30px;
+    height: 40px;
+    width: 250px;
+}
+.tick{
+    display:flex;
+    gap: 30%;
+    margin-top: 5%;
+}
+#h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 46px;
+}
+#Logos{
+    display: flex;
+    gap:250px;
+    
+}
+
+#logo{
+    width: 150px;
+    margin-bottom: 20%;
+  
+}
+#slack{
+    width: 150px;
+}
+#udemy{
+    width: 150px; 
+}
+#google{
+    width: 100px;
+}
+i{
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+@media screen and (min-width:280px) and (max-width:540px) {
+   
+    #navbar{
+        gap: 15%;
+        margin-left: 1%;
+        text-decoration: none;
+        font-size: 40px;
+        flex-direction: column;
+    }
+
+        body{
+            font-size: xx-large;
+        }
+
+        #Nav{
+            
+            font-size:10px ;
+        
+        }
+
+        #hero-man{
+            width: 300px;
+        }
+
+        .detail{
+            font-size: large;
+        }
+
+        .man{
+            flex-direction: column;
+        }
+
+        .details{
+            flex-wrap: wrap;
+            font-size: 50%;
+        }
+
+        #Logos{
+           flex-direction: column;
+            gap:10%;
+            font-size: 20px;
+            margin-top: 0%;
+            
+        }
+
+        #h2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 33px;
+        }
+        
+        #explore{
+            border-radius: 30px;
+            height: 30px;
+            width: 100px;
+            background-color: rgb(215, 23, 23);
+            margin-left: -8%; 
+        }
+        input{
+            border-radius: 30px;
+            height: 28px;
+            width: 150px;
+        }
+
+        #login{
+            border-radius: 30px;
+            width: 80px;
+            height: 30px;
+        }
+        #join{
+            border-radius: 30px;
+            width: 80px;
+            height: 30px;
+            background-color: rgb(215, 23, 23);
+        
+        
+        }
+        
+        .tick{
+          flex-direction: column;
+            gap: 10%;
+            margin-top: 5%;
+            font-size: xx-large;
+        }
+    }
+
+    
+
+@media screen and (min-width:541px) and (max-width:768px) {
+   
+    #navbar{
+       flex-direction: column;
+        gap: 0%;
+        margin-left: 1%;
+        text-decoration: none;
+    }
+
+        body{
+            font-size: xx-large;
+        }
+
+        #Nav{
+            display: flex;
+            font-size:10px ;
+        }
+
+        #hero-man{
+            width: 750px;
+        }
+
+        .man{
+            flex-direction: column;
+        }
+
+        .details{
+            flex-wrap: wrap;
+            font-size: 50%;
+        }
+
+        #Logos{
+            display: flex;
+            gap:10px;
+            font-size: 20px;
+            
+        }
+
+        #h2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 33px;
+        }
+        
+        #explore{
+            border-radius: 30px;
+            height: 30px;
+            width: 100px;
+            background-color: rgb(215, 23, 23);
+            margin-left: -7%;
+        }
+        input{
+            border-radius: 30px;
+            height: 28px;
+            width: 150px;
+        }
+
+        #login{
+            border-radius: 30px;
+            width: 80px;
+            height: 30px;
+        }
+        #join{
+            border-radius: 30px;
+            width: 80px;
+            height: 30px;
+            background-color: rgb(215, 23, 23);
+        
+        
+        }
+        
+        .tick{
+            flex-direction: column;
+            gap: 10%;
+            margin-top: 5%;
+            font-size: xx-large;
+        }
+    }
+
+
+
+    @media screen and (min-width:769px) and (max-width:1024px) {
+   
+        #navbar{
+            display: flex;
+            gap: 15%;
+            margin-left: 1%;
+            text-decoration: none;
+            font-size: 40px;
+        }
+    
+            body{
+                font-size: xx-large;
+            }
+    
+            #Nav{
+                display: flex;
+                font-size:10px ;
+            }
+    
+            #hero-man{
+                width: 450px;
+            }
+    
+            .detail{
+                font-size: x-large;
+            }
+    
+            .man{
+                display: flex;
+                padding-left: 10px;
+            }
+    
+            .details{
+                flex-wrap: wrap;
+                font-size: 50%;
+            }
+    
+            #Logos{
+                display: flex;
+                gap:10%;
+                font-size: 20px;
+                margin-top: 0%;
+                
+            }
+    
+            #h2{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 13px;
+            }
+            
+            #explore{
+                border-radius: 30px;
+                height: 30px;
+                width: 100px;
+                background-color: rgb(215, 23, 23);
+                margin-left: -1%; .detail{
+                    font-size: x-large;
+                }
+            }
+            input{
+                border-radius: 30px;
+                height: 28px;
+                width: 150px;
+            }
+    
+            #login{
+                border-radius: 30px;
+                width: 80px;
+                height: 30px;
+            }
+            #join{
+                border-radius: 30px;
+                width: 80px;
+                height: 30px;
+                background-color: rgb(215, 23, 23);
+            
+            
+            }
+            
+            .tick{
+               display: flex;
+                gap: 10%;
+                margin-top: 5%;
+                font-size: x-large;
+            }
+        }
+    
+        
+@media screen and (min-width:1025px) and (max-width:1398px) {
+   
+    #navbar{
+        display: flex;
+        gap: 15%;
+        margin-left: 1%;
+        text-decoration: none;
+        font-size: 40px;
+    }
+
+        body{
+            font-size: xx-large;
+        }
+
+        #Nav{
+            display: flex;
+            font-size:16px ;
+        }
+
+        #hero-man{
+            width: 650px;
+        }
+
+        .detail{
+            font-size: x-large;
+        }
+
+        .man{
+           flex-direction: column;
+           
+        }
+
+        .details{
+            flex-wrap: wrap;
+            font-size: 50%;
+        }
+
+        #Logos{
+           flex-direction: column;
+            gap:10%;
+            font-size: 20px;
+            margin-top: 0%;
+            
+        }
+
+        #h2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 33px;
+        }
+        
+        #explore{
+            border-radius: 30px;
+            height: 30px;
+            width: 100px;
+            background-color: rgb(215, 23, 23);
+            margin-left: -1%; .detail{
+                font-size: x-large;
+            }
+        }
+        input{
+            border-radius: 30px;
+            height: 28px;
+            width: 150px;
+        }
+
+        #join{
+            border-radius: 30px;
+            width: 80px;
+            height: 30px;
+            background-color: rgb(215, 23, 23);
+        
+        
+        }
+        
+        .tick{
+           display: flex;
+            gap: 10%;
+            margin-top: 5%;
+            font-size: xx-large;
+        }
+    }
+
+    
